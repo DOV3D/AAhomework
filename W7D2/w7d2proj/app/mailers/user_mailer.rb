@@ -6,5 +6,4 @@ class UserMailer < ApplicationMailer
         @url = 'http://localhost:3000/session/new'
         mail(to: @user.username, subject:'Welcome to 99 Cats!')
     end
-    end
 end
